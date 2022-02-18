@@ -1,12 +1,13 @@
-  .customNav {
+.fixed-top{
     position: fixed;
     width: 100%;
     z-index: 10;
-  }
-  .navbar-nav {
+}
+
+.navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
-  }
+}
 
 .nav-item{
     margin: 0px 15px;
@@ -16,6 +17,9 @@
     background-color: #8CBFC3;
 }
 
+.jumbotron h1{
+  padding-top: 45px;
+}
 
 .card{
   padding: 25px !important;
