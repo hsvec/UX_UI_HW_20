@@ -1,0 +1,63 @@
+  .customNav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+
+.nav-item{
+    margin: 0px 15px;
+}
+
+.jumbotron{
+    background-color: #8CBFC3;
+}
+
+
+.card{
+  padding: 25px !important;
+}
+.brief{
+    padding-top: 50px;
+}
+.font{
+  color: black;
+}
+
+.row{
+    padding: 25px;
+}
+
+.testing{
+  background-color: #F2D3A4;
+  margin-bottom: auto;
+}
+.card-deck{
+    padding: 25px;
+}
+.sideBySide{
+  background-color: #8AAB53;
+}
+.card-img-top{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.wireframes{
+  background-color: #E5E5E5;
+}
+
+.HiFi{
+  background-color: #E5E5E5;
+}
+
+.Conc{
+  background-color: #8CBFC3;
+}
+.Logo{
+  max-width: 50%;
+  padding-bottom: 40px;
+}

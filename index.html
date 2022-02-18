@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Add Bootstrap CSS Here on line 10 -->
+    <!-- This is REQUIRED for bootstrap to work correctly -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. Notice how it is loaded 2nd to the required bootstrap stylesheet. This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+        <title>UX/UI Homework 20</title>
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light customnav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Overview <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Research</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Problem Statement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Iterations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Prototypes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Future Opportunities</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!-- jumbotron -->
+        <div class="jumbotron">
+            <h1 class="display-4">A Case Study for the Website Redesign of Yoga Forward</h1>
+            <p class="lead">Hannah Svec, UX/UI Designer</p>
+            <hr class="my-4">
+            <div class="card-group">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Current Website</h5>
+                  </div>
+                  <img src="images/CurrentYogaForward.png" class="card-img-top" alt="CurrentYogaForward">
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Redesigned Website</h5>
+                    </div>
+                    <img src="images/Desktop_Mockup.png" class="card-img-top" alt="Redesign">
+                </div>  
+              </div>
+            <div class="brief">
+                <p>Brief: Yoga Forward is a non-profit 501(c)(3) organization based in Salt Lake City, Utah. This community service outreach program brings healing benefits of yoga and mindfulness to those who need it most. According to their website, Yoga Forward’s mission (“We’re taking yoga where it isn’t!”) manifests in the form of working with prison populations, local schools, and the LGBTQ+ community. Our goal is to evaluate the Yoga Forward website (yogaforward.org) and make meaningful improvements that will serve its users and the goals of the nonprofit.</p>
+            </div>      
+            
+        </div>
+        <!-- Overview -->
+        <dl class="row">
+            <dt class="col-sm-3">The Problem:</dt>
+            <dd class="col-sm-9">It's difficult for a group of volunteers to find volunteering resources through Yoga Forward.</dd>
+  
+            <dt class="col-sm-3">Goal:</dt>
+            <dd class="col-sm-9">There are a number of users who might use the Yoga Forward website, including volunteers, partners, and those looking to donate. We feel it is important to make a website that is easily accessible and friendly to each of these users who would like to find more information and get involved. We might be able to help if we make the Yoga Forward website more useful to those who would like to volunteer.</dd>
+  
+            <dt class="col-sm-3">Our Proposal:</dt>
+            <dd class="col-sm-9">We will redesign the website to focus on ways people can get involved. Doing this will allow the Yoga Forward website to become more transparent and support the overall goals of the organization by involving the community and taking yoga into more locations and communities.</dd>  
+  
+            <dt class="col-sm-3">My Role and Team:</dt>
+            <dd class="col-sm-9">I worked as a UX/UI Designer alongside Sara Hanks and Aniza Mingura.</dd>
+
+            <dt class="col-sm-3">Design Process:</dt>
+            <dd class="col-sm-9">
+                <ul class="list-unstyled">
+                    <li>Step 1: Website Analysis and User Research</li>
+                    <li>Step 2: Problem Statement and User Persona</li>
+                    <li>Step 3: Empathy and Storytelling</li>
+                    <li>Step 4: Information Architecture & Wireframes</li>
+                    <li>Step 5: Prototypes & Visual Design</li>
+                    <li>Step 6: Conclusion & Future Opportunities</li>
+                </ul>
+            </dd>
+        </dl>
+        <!-- Research -->
+        <!-- <div class="card mb-3" style="max-width: auto;">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Website Analysis</h5>
+                  <p class="card-text">Redlining and heuristic evaluations were conducted on the current state of the Yoga Forward website. Key take-aways:
+                    <ul class="list-unstyled">
+                        <li>-An incomplete ‘Contact Us’ page </li>
+                        <li>-No information on who started Yoga Forward</li>
+                        <li>-Too much white space on homepage and lack of information above the fold.</li>
+                    </ul>                       
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="images/HeuristicsAll.png" class="card-img" alt="HeuristicsAll">
+              </div>
+            </div>
+        </div> -->
+
+<!-- Collapse 1 Website Analysis -->
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link font" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Website Analysis
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="row no-gutters">
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">Redlining and heuristic evaluations were conducted on the current state of the Yoga Forward website. Key take-aways:
+              <ul class="list-unstyled">
+                  <li>-An incomplete ‘Contact Us’ page </li>
+                  <li>-No information on who started Yoga Forward</li>
+                  <li>-Too much white space on homepage and lack of information above the fold.</li>
+              </ul>                       
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/HeuristicsAll.png" class="card-img" alt="HeuristicsAll">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed font" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Competitor Analysis
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="row no-gutters">
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">We looked at the websites of other service-oriented yoga organizations across the country and found some key ingredients that were missing from the Yoga Forward website. This included the human touch, social media links after we confirmed Yoga Forward did have an instagram account, and an effective header navigation.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/Competitor-Analysis-Template-Yoga-Forward - Google Sheets.png" class="card-img" alt="CompetitorAnalysis">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed font" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          User Interviews
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="row no-gutters">
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">We conducted 7 virtual interviews with adults over 18 years of age. Our goals were to learn from users what they gain from yoga, any pain points in practice, what they value in non-profit organizations, and contributing factors to joining an organization’s mission. The outcome of our interviews yielded the following 5 key points:
+              <ul class="list-unstyled">
+                  <li>-User's choose to interact with non-profits if their values align</li>
+                  <li>-User's value transparency in what non-profits do with their donations</li>
+                  <li>-User's hold a strong belief that good mental health leads to good physical health </li>
+                  <li>-User's are less likely to participate in yoga if they don't feel like the "stereotypical" yoga practitioner</li>
+                  <li>-User's believe time and money are major obstacles to practicing yoga</li>
+              </ul>                       
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/AffinityDiagram.png" class="card-img" alt="AffinityDiagram">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: auto;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="images/UserPersona.png" class="card-img" alt="UserPersona">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">User Persona</h5>
+        <p class="card-text"> From our user interviews, Barbara was born. Barbara is a 28 year old florist from Salt Lake City. She likes to give back to her community and feel connected to those around her. She enjoys yoga, nature, nurturing a strong social life, and forming meaningful friendships. She believes in the power of yoga and therapy for her own mental health and physical health, and is looking for a way to share this with others. She heard about Yoga Forward and wants to learn more about the organization and how she can get involved.</p>
+      </div>
+    </div>
+  </div>
+</div>
+   
+<!-- disabled cards -->
+          <!-- <div class="card mb-3" style="max-width: auto;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="images/Competitor-Analysis-Template-Yoga-Forward - Google Sheets.png" class="card-img" alt="CompetitorAnalysis">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Competitor Analysis</h5>
+                  <p class="card-text">We looked at the websites of other service-oriented yoga organizations across the country and found some key ingredients that were missing from the Yoga Forward website. This included the human touch, social media links after we confirmed Yoga Forward did have an instagram account, and an effective header navigation.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: auto;">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">User Interviews</h5>
+                  <p class="card-text">We conducted 7 virtual interviews with adults over 18 years of age. Our goals were to Learn from users what they gain from yoga, any pain points in practice, what they value in non-profit organizations, and contributing factors to joining an organization’s mission. The outcome of our interviews yielded the following 4 key points:
+                    <ul class="list-unstyled">
+                        <li>- </li>
+                        <li>- </li>
+                        <li>- </li>
+                        <li>- </li>
+                    </ul>                       
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="images/AffinityDiagram.png" class="card-img" alt="AffinityDiagram">
+              </div>
+            </div>
+        </div> -->
+
+
+
+        <!-- Empathy/Storyboard -->
+        <div class="card-deck">
+            <div class="card sideBySide">
+              <div class="card-body">
+                <h5 class="card-title">Empathy Map</h5>
+                <p class="card-text">We mapped out responses from our user interviews to understand Barbara better to understand her environment and emotional connections.</p>
+              </div>
+              <img src="images/EmpathyMap.png" class="card-img-top" alt="EmpathyMap">
+            </div>
+            <div class="card sideBySide">
+              <div class="card-body">
+                <h5 class="card-title">Storyboard</h5>
+                <p class="card-text">We built a storyboard for Barbara’s journey of becoming involved as a volunteer for Yoga Forward.</p>
+              </div>
+              <img src="images/Storyboard.png" class="card-img-top" alt="Storyboard">
+            </div>
+          </div>
+        <!-- UserFlow -->
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">User Flow</h5>
+              <p class="card-text">From our site map and Barabara’s storyboard, we further mapped out the steps necessary for Barbara to successfully submit a volunteer application.</p>
+            </div>
+            <img src="images/UserFlow.png" class="card-img-top" alt="UserFlow">
+          </div>
+        <!-- Wireframes -->
+        <div class="wireframes">
+            <div class="card-body wireframes">
+              <h5 class="card-title">Wireframes</h5>
+              <p class="card-text">Our initial concepts for the website redesign, including a responsive design for mobile, were outlined on wireframes using Figma.</p>
+            </div>
+            <img src="images/MobilePrototype.png" class="card-img-top" alt="MobilePrototype">
+            <img src="images/DesktopProto1.png" class="card-img-top" alt="DesktopProto1">
+            <img src="images/DesktopProto2.png" class="card-img-top" alt="DesktopProto2">
+            <img src="images/DesktopProto3.png" class="card-img-top" alt="DesktopProto3">
+          </div>
+          <!-- User Testing -->
+          <dl class="row testing">
+            <dt class="col-sm-3">User Testing:</dt>
+            <dd class="col-sm-9">
+                <ul class="list-unstyled">
+                    <li>Overall we concluded that our testing was a success. In particular our user's noted:</li>
+                    <li>-Well organized website</li>
+                    <li>-Smooth navigation processes</li>
+                    <li>-Logical location of buttons</li>
+                    <li>-Clearly marked projects within Yoga Foarward's mission </li>
+                    <li>Our testing told us that the flow we imagined and the layout we designed was largely successful for users. We received feedback that the original menu style on mobile was a little confusing, so we adjusted accordingly and moved forward with Style Guide creation and implementation.</li>
+                </ul>
+            </dd>
+          </dl>
+          <!-- HiFi Mockups  -->
+          <div class="card HiFi">
+            <div class="card-body">
+              <h5 class="card-title">Iterations & Hi-Fi Mockups:</h5>
+              <p class="card-text">Mobile:</p>
+            </div>
+            <img src="images/MobileHiFi1.png" class="card-img-top" alt="MobileHiFi1">
+            <img src="images/MobileHiFi2.png" class="card-img-top" alt="MobileHiFi2">
+            <img src="images/MobileHiFi3.png" class="card-img-top" alt="MobileHiFi3">
+          </div>
+          <div class="card HiFi">
+            <div class="card-body">
+              <p class="card-text">Desktop:</p>
+            </div>
+            <img src="images/DektopHiFi1.png" class="card-img-top" alt="DesktopHiFi1">
+            <img src="images/DesktopHiFi2.png" class="card-img-top" alt="DesktopHiFi2">
+            <img src="images/DesktopHiFi3.png" class="card-img-top" alt="DesktopHiFi3">
+          </div>
+          <!-- Conclusion -->
+          <div class="card Conc">
+            <div class="card-body">
+              <h5 class="card-title">Conclusions & Future Opportunities:</h5>
+              <p class="card-text"></p>
+              <ul class="list-unstyled">
+                <li>-Add an “Events” page</li>
+                <li>-Developing programs with other populations</li>
+                <li>-Video spotlights on program graduates and scholarship recipients</li>
+                <li>-Community partnerships</li>
+                <li>-Transparency on use of funds (annual reports, examples of what a $20 donation can do, etc.)</li>
+                <li>-Logo redesign to demonstrate inclusivity</li>
+              </ul>                         
+            </div>
+            <img src="images/LogosNew.png" class="card-img-top Logo" alt="LogosNew">
+            <p class="card-text">Yoga Forward has the potential to be a strong force for good in the community and has already demonstrated a track record of compassion, outreach, and support.
+
+                Yoga Forward’s ability to serve marginalized communities can grow with attention to their website, particularly when it comes to offering ways for people to volunteer and get involved.
+                
+                The user flow we’ve presented can be a first step toward achieving their future goals.</p>
+          </div>
+
+    </body>
+         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- THE BELOW SCRIPT TAGS ARE REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
